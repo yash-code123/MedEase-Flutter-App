@@ -371,7 +371,7 @@ Output: `build/app/outputs/flutter-apk/app-release.apk`
 ## 👤 Author
 
 **Yash**
-B.E. Computer Science & Engineering (Data Science)
+B.Tech Computer Science & Engineering (Data Science)
 Vidyavardhini's College of Engineering and Technology (VCET), Vasai
 
 | | |
