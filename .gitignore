@@ -1,0 +1,14 @@
+.dart_tool/
+.packages
+build/
+ios/Pods/
+ios/.symlinks/
+android/.gradle/
+*.iml
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+.env
+.env.*
+!.env.example
+android/key.properties

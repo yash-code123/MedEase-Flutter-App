@@ -1,0 +1,54 @@
+name: medease_app
+description: MedEase - Hospital Management System mobile app (Patient, Doctor, Admin)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Networking
+  dio: ^5.4.3+1
+
+  # State management
+  provider: ^6.1.2
+
+  # Local secure storage (JWT token persistence)
+  flutter_secure_storage: ^9.2.2
+
+  # Local caching for offline-ish behavior
+  shared_preferences: ^2.2.3
+
+  # Charts (revenue trend, analytics - mirrors Chart.js on web)
+  fl_chart: ^0.68.0
+
+  # QR code for UPI payment (mirrors qrcodejs on web)
+  qr_flutter: ^4.1.0
+
+  # Date / time formatting and pickers
+  intl: ^0.19.0
+
+  # Nice form fields & dropdowns
+  dropdown_button2: ^2.3.9
+
+  # PDF export of bills / prescriptions (mirrors "Printable bills" on web)
+  pdf: ^3.11.0
+  printing: ^5.13.1
+  path_provider: ^2.1.3
+
+  # Pull to refresh
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # fonts: DM Sans + DM Serif Display are pulled via google_fonts at runtime
+  #        to mirror the web app's typography without bundling font files.
